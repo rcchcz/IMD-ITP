@@ -11,7 +11,7 @@ int main()
 
     scanf("%d", &n);
 
-    for(int i=0; i<n; i++)
+    for(int i = 0; i < n; i++)
     {
         int x, y;
         int sum = 0;
@@ -19,7 +19,7 @@ int main()
         scanf("%d", &y);
         y--;
 
-        while(y>x)
+        while(y > x)
         {
             if(y%2 != 0) sum += y;
             y--;
