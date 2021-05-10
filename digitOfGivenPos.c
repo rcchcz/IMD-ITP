@@ -1,5 +1,6 @@
 // This program prints the digit of a given position p of an
 // integer x, considering that 0 is the first digit to the right.
+// This is part of an introductory study of functions.
 
 #include <stdio.h>
 
